@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="assets/img/favicon.ico">
+
+    <title>Ethos Capital</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/custom-animations.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+
+	<! -- ********** HEADER ********** -->
+	<div id="fixed_header" class="">
+		<img src="assets/img/logo.png" class="img-responsive aligncenter" alt="" >
+	</div>
+	<div id="h">
+		<div class="container">
+			<div class="row">
+			    <div class="col-md-12 mt aligncenter">
+			    	<h3>IT'S YOUR CHANCE TO SHAPE THE WORLD’S GREENEST INVESTMENT FUND</h3>
+			    	<h1>YOUR VOICE. YOUR VALUES. YOUR FUTURE.</h1>
+					<div class='btn-link'>VOTE NOW</div>
+			    </div>
+			</div>
+		</div>
+	</div>
+
+	<! -- ********** INTRO PANEL ********** -->
+	<div id="i">
+		<div class="row nopadding">
+			<div class="col-md-4 col-md-offset-2">
+				<h4>World’s greenest investment fund.</h4>
+				<p>Etho Capital offers diversified “fossil free” investment funds that exclusively comprises of climate leaders. Besides investing in companies that take sustainability seriously, you also get to choose which of your favorite companies form the fund.</p>	
+			</div>
+			
+			<div class="col-md-5 col-md-offset-1">
+				<img src="assets/img/image01.png" class="img-responsive alignleft" alt="" data-effect="slide-right">
+			</div>
+		</div>
+	</div>
+	
+	<! -- ********** REASON PANEL ********** -->
+	<div id="r">
+		<div class="row nopadding">
+			<div class="col-md-4 col-md-offset-2">
+				<img src="assets/img/image02.png" class="img-responsive alignright" alt="" data-effect="slide-left">
+			</div>
+			<div class="col-md-4 col-md-offset-1">
+				<h4>Superior sustainability. Superior returns.</h4>
+				<p>Our results defy conventional wisdom. Etho Capital’s funds reduce climate pollution by over 80%, while simultaneously providing substantially higher financial returns than conventional investments. It’s true, investing in our planet’s future can be better for your portfolio’s future too!</p>
+			</div>	
+		</div>
+	</div>
+
+	<! -- ********** PARTNERS PANEL ********** -->
+	<div id="t">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="row nopadding">
+					<div class="col-sm-3 centered">
+						<img src="assets/img/oroeco.png" class="img-responsive aligncenter" alt="">
+					</div>
+					<div class="col-sm-3 centered">
+						<img src="assets/img/csrhub.png" class="img-responsive aligncenter" alt="">
+					</div>
+					<div class="col-sm-3 centered">
+						<img src="assets/img/trucost.png" class="img-responsive aligncenter" alt="">
+					</div>
+					<div class="col-sm-3 centered">
+						<img src="assets/img/confluence.png" class="img-responsive aligncenter" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<! -- ********** PROCESS PANEL ********** -->
+	<div id="process">
+		<div class="row nopadding">
+			<div class="col-md-12 centered aligncenter">
+				<h4>Big Data + Expert Input + Your Voice = Our Fund</h4>
+			</div>	
+			<div class="col-md-12 centered aligncenter">
+				<img src="assets/img/process.png" class="img-responsive aligncenter" alt="" data-effect="slide-up">
+			</div>
+		</div>
+	</div>
+
+	<! -- ********** PRODUCT PANEL ********** -->
+	<div id="i">
+		<div class="row nopadding">
+			<div class="col-md-4 col-md-offset-2">
+				<img src="assets/img/image03.png" class="img-responsive alignleft" alt="" data-effect="slide-right">
+			</div>
+			<div class="col-md-4 col-md-offset-1">
+				<h4>Take first step towards sustainable investment.</h4>
+				<p>We will soon launch Climate Impact Fund, our first exchange traded fund (ETF) at an affordable price. You have a chance right now to have your voice heard and cast your vote.</p>
+				<button class='btn btn-lg vote-submit' type="submit">VOTE NOW</button>
+
+			</div>			
+		</div>
+	</div>
+	
+	<! -- ********** FOOTER PANEL ********** -->
+	<div id="f">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="row nopadding">
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/retina-1.1.0.js"></script>
+    <script src="assets/js/jquery.unveilEffects.js"></script>
+    <script>
+    	function do_the_fixed_header_thing(){
+    		if($(document).scrollTop()>90){
+    			$("#fixed_header").addClass("get_small")
+    		} else {
+    			$("#fixed_header").removeClass("get_small")
+    		}
+    	}
+    	$(document).on("scroll", function(){
+    		do_the_fixed_header_thing();
+    	})
+    </script>
+  </body>
+</html>
